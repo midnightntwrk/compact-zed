@@ -1,0 +1,16 @@
+name = "Compact"
+grammar = "compact"
+path_suffixes = ["compact"]
+line_comments = ["// "]
+autoclose_before = ";:.,=}])>"
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "<", end = ">", close = true, newline = false },
+    { start = "\"", end = "\"", close = true, newline = false, not_in = [
+        "string",
+        "comment",
+    ] },
+]
+tab_size = 2

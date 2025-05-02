@@ -1,0 +1,15 @@
+id = "compact"
+name = "Compact"
+version = "1.0.0"
+schema_version = 1
+authors = ["Midnight Foundation <contact@midnight.network>"]
+description = "Compact language support for Zed"
+repository = "https://github.com/midnightntwrk/compact-zed"
+
+[grammars.compact]
+repository = "https://github.com/midnightntwrk/compact-tree-sitter"
+rev = "08d7e7696ec72c2d4456322738a6b464064f6932"
+
+[language_servers.compact]
+language = "Compact"
+name = "Compact LSP"
