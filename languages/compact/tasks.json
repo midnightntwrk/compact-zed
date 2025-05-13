@@ -1,0 +1,7 @@
+[
+  {
+    "label": "compile",
+    "command": "compact",
+    "args": ["compile"]
+  }
+]
