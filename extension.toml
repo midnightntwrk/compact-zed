@@ -23,7 +23,7 @@ repository = "https://github.com/midnightntwrk/compact-zed"
 
 [grammars.compact]
 repository = "https://github.com/midnightntwrk/compact-tree-sitter"
-rev = "394acdb89934b33b9929808277d234d17c805ca9"
+rev = "409f9206ab3ca3cb53f8f3f4127012a8eb4ae36e"
 
 [language_servers.compact]
 language = "Compact"
